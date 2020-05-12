@@ -1,20 +1,23 @@
 # CodinGame Python Multi-file Script
 
+Minimaly forked from https://github.com/devYaoYH/cg_pyEnv and portet to Visual Studio Code on Windows.
+**No guarantees at all** as i have no idea what im dooing here.
+
 Simple script to collate python class definitions across multiple files with `python build.py <file>`.
 
-Can incoporate `build.py` into your own workflow but below I describe a convenient workflow I used for OceanOfCode with **Sublime Text 3**
+Can incoporate `build.py` into your own workflow but below I describe a convenient workflow with **VS Code**
 
 ## Sample Workflow
 
-Sublime-Text, `pyEnv.sublime-project` includes a build configuration to automatically run `build.py` on currently active file in the editor.
+`.vscode/tasks.json` includes a build configuration to automatically run `build.py` on currently active file in the editor.
 
 **Note:** `build.py` must exist in the same directory as the file to be built
 
-1. Open the sublime-text project (Project->Open Project...)
+1. Hit `ctrl + shift + B`
 
-2. Set build system to "Compile to CG" if not already set (Tools->Build System)
+2. Set build system to "Compile to CG" if not already set
 
-3. Build project, will output to `cg.out` (Tools->Build or use shortcut!)
+3. Build project, will output to `cg.out` 
 
 4. Follow instructions to install [CG Sync](https://www.codingame.com/forum/t/codingame-sync-beta/614)
 
