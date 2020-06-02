@@ -1,4 +1,4 @@
-# CodinGame Python Multi-file Script
+# CodinGame Python Multi-file Script VS-Code
 
 Minimaly forked from https://github.com/devYaoYH/cg_pyEnv and portet to Visual Studio Code on Windows.
 **No guarantees at all** as i have no idea what im dooing here.
